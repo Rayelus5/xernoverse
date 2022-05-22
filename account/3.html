@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Xernoverse</title>
+	<link rel="stylesheet" href="..\account\style.css">	
+	<script defer src="../assets/js/script.js"></script>
+
+	
+</head>
+<body>
+<h1 class="titlebody">WALLET</h1>
+
+<form class="box1" method="post">
+  <h2 class="titlebox">Precio</h2>
+  <br>
+  <h1 id="precioActual"></h1>
+</form>
+
+<form class="box2" method="post">
+  <h2 class="titlebox">XER</h2>
+  <br>
+  <h1 id="misXernocions"></h1>
+</form>
+
+<form class="box3" method="post">
+  <h2 class="titlebox">EUR</h2>
+  <br>
+  <h1 id="misEuros"></h1>
+</form>
+
+
+<!--SCRIPT EDITABLE Y ÚNICO PARA CADA USER-->
+<script type="text/javascript">
+		var misXernocions = document.getElementById("misXernocions");
+		misXernocions.textContent = 6.875;
+		var misEuros = document.getElementById("misEuros");
+		misEuros.textContent = 0;
+
+</script>
+
+</body>
+</html>
