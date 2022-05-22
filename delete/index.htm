@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rayelus Web</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+      
+
+      img {
+        opacity: 0;
+        width: 1px;
+      }
+    </style>
+
+
+    <script type="text/javascript">
+      function btn001() {
+        var text001;
+        var colors001 = input001.value;
+
+        if (colors001 == "1234") {
+          text001 = "Login..."
+          document.getElementById('message001').innerHTML = text001;
+
+          window.open('main.htm')
+        }
+        else {
+          text001 = "Debe escribir el código de invitación"
+          document.getElementById('message001').innerHTML = text001;
+          
+        }
+        
+      }
+    </script>
+
+  </head>
+  <body>
+
+<form class="box" method="post">
+  <br>
+  <h1>rayelus web</h1>
+
+  <input id="input001" type="text" name="" placeholder="Enter Code" maxlength="4" required>
+  <input onclick="btn001()" type="submit" name="" value="Log In">
+  <p id="message001"></p>
+
+  <br>
+  <p>© 2021 - 2022 · RayelusWEB.com<br>Programming and web design by Rayelus</p>
+
+</form>
+
+<video id="video_background" src="fondo.mp4" autoplay muted loop></video>
+
+
+  </body>
+</html>
