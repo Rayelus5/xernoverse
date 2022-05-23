@@ -92,7 +92,7 @@ p{
 }
 
       #video_background {
-  opacity: 0.7;
+  opacity: 0.6;
  position: absolute;
  bottom: 0px;
  right: 0px;
@@ -131,7 +131,8 @@ p{
 }
 
   #video_background {
-  opacity: 0.8;
+  opacity: 0.6;
+  align-content: center;
   position: absolute;
   bottom: 0px;
   right: 0px;
