@@ -1,2 +1,2 @@
 var precioActual = document.getElementById("precioActual");
-precioActual.textContent = 0.01505833;
+precioActual.textContent = 0.01269;

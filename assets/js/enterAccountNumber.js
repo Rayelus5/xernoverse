@@ -43,10 +43,12 @@ function btnLogin() {
         }
 
         else {
+          console.log("Invalid account number")
           alert("Debe escribir su número de cuenta");
           text001 = "Debe escribir su número de cuenta";
           document.getElementById('message001').innerHTML = text001;
-          window('index.html');
+          
+
         }
         
       }
