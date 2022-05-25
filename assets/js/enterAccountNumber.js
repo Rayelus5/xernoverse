@@ -42,6 +42,14 @@ function btnLogin() {
           window.open('account/4.html');
         }
 
+        else if (colors001 == "0xG917te2") {
+          alert("Login as Juan Gonzalez");
+          text001 = "Login as Juan Gonzalez";
+          document.getElementById('message001').innerHTML = text001;
+
+          window.open('account/5.html');
+        }
+
         else {
           console.log("Invalid account number")
           alert("Debe escribir su número de cuenta");
